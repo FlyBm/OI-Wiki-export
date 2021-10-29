@@ -70,14 +70,14 @@
 \date{\today}
 \titleformat{\chapter}[display]{\Huge\bfseries}{第~\thechapter~章}{1em}{}
 
-\setmainfont[BoldFont={Noto Serif SemiBold}]{Noto Serif}
-\setsansfont[BoldFont={Noto Sans SemiBold}]{Noto Sans}
-\setmonofont[Scale=0.9]{Roboto Mono}  % scale is needed for visual balance between Chinese and English
+\setmainfont[BoldFont={Rockwell}]{Rockwell}
+\setsansfont[BoldFont={Courier New}]{Courier New}
+\setmonofont[Scale=1]{Consolas}  % scale is needed for visual balance between Chinese and English
 \setmathfont{CMU Serif}
 
-\setCJKmainfont{Noto Serif CJK SC}
-\setCJKmonofont{Noto Sans CJK SC}
-\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmainfont[BoldFont=STZhongsong, ItalicFont=STKaiti]{STSong}
+\setCJKsansfont[BoldFont=STXihei]{STXihei}
+\setCJKmonofont{STFangsong}
 
 \setmathrm{CMU Serif}
 \setmathsf{CMU Sans Serif}
@@ -192,7 +192,7 @@
 \newcommand{\hytt}[1]{\texttt{\hyphenchar\font="200B #1}}
 
 % minted settings
-\setminted{fontsize=\small}
+\setminted{fontsize=\normalsize}
 \newmdenv[%
     roundcorner=5pt,
     linewidth=0pt,
